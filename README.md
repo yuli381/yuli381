@@ -1,23 +1,3 @@
-/proyecto-gestion-usuarios
-│
-├── backend/
-│   ├── index.js
-│   ├── routes/users.js
-│   ├── swagger.json
-│   └── package.json
-│
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── context/
-│   │   ├── pages/
-│   │   ├── App.js
-│   │   └── index.js
-│   └── package.json
-│
-└── README.md
-
 const express = require('express');
 const cors = require('cors');
 const usersRouter = require('./routes/users');
